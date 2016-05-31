@@ -1,6 +1,6 @@
 ---
-title: Markdown: Syntax
-description: test
+title: Markdown\: Syntax
+description: Nothing to see here
 ---
 
 Markdown: Syntax
