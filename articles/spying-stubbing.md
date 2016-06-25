@@ -1,5 +1,5 @@
 ---
-title: Spying and Stubbing in JavaScript
+title: Testing: Spying & Stubbing in JavaScript
 description: Testing software applications is very important
              but testing comes with its own set of concepts
              and tools that one must become familiar with. In
@@ -7,8 +7,6 @@ description: Testing software applications is very important
              concepts of spying and stubbing in JavaScript
              tests.
 ---
-
-# Spying and Stubbing in JavaScript
 
 So the other day at work we had a presentation by one
 of our tech leads on the topic of testing the hybrid
