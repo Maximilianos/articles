@@ -1,9 +1,14 @@
 ---
-title:
-description: asd
+title: Spying and Stubbing in JavaScript
+description: Testing software applications is very important
+             but testing comes with its own set of concepts
+             and tools that one must become familiar with. In
+             this post I want to dive a little deeper into the
+             concepts of spying and stubbing in JavaScript
+             tests.
 ---
 
-# Stubbing and Spying in JavaScript
+# Spying and Stubbing in JavaScript
 
 So the other day at work we had a presentation by one
 of our tech leads on the topic of testing the hybrid
