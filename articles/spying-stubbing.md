@@ -13,10 +13,10 @@ one of our tech leads on the topic of testing the hybrid
 mobile apps our teams are building. After it was done, we
 sat around the table chatting away about unit tests,
 functional tests, whether we should be writing tests before
-we write a feature and so on.
+we write a feature or after, and so on.
 
 Most of the people in the room had been writing JavaScript
-tests for years; for me on the other hand, this was the
+tests for years. For me on the other hand, this was the
 first project I was involved with where testing was taken
 seriously. So at some point when a few of my team members 
 started talking about spying and stubbing in tests, my ears
@@ -24,11 +24,12 @@ pricked up because it was something that I had been working
 with earlier in the day without really understanding and I 
 was eager to sort it out in my head.
 
-[aside]
-[asideHeader]
+[Aside]
+
+[AsideHeader]
 If you have not seen what a spy or stub is before, this is 
 my understanding of when they are both used:
-[/asideHeader]
+[/AsideHeader]
 
 In your tests, given you have a function you want to test 
 that takes another function as an argument, you may want to
@@ -79,7 +80,7 @@ function parent(func) {
 
 you would test this function by passing in a **Stub** as
 the `func` argument and controlling what the stub returns
-when it is called; something like so:
+when it is called; something like this:
 
 ```javascript
 it('should return "So true" when the given function returns true', () => {
@@ -104,10 +105,12 @@ it('should return "Really false" when the given function returns false', () => {
 });
 ```
 
-Though these are the basics of how you would use spies and
-stubs in your tests, libraries like Sinon give you a
+These are the basics of how you would use spies and stubs
+in your tests. We have only scratched the surface of what
+libraries like Sinon give you, but I believe this is a good
+starting point to be able to understand the concept.
 
-[/aside]
+[/Aside]
 
 Interestingly, though almost everyone in the room had been
 using spying and stubbing in the tests they were writing, a
