@@ -1,4 +1,5 @@
 ---
+status: published
 title: Spying & Stubbing in JavaScript
 description: Testing software applications is very important
              but testing comes with its own set of concepts
