@@ -1,4 +1,5 @@
 ---
+authors: gruber
 title: Markdown Syntax
 description: Nothing to see here
 ---
