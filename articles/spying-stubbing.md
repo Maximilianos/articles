@@ -26,12 +26,8 @@ pricked up because it was something that I had been working
 with earlier in the day without really understanding and I 
 was eager to sort it out in my head.
 
-[Aside]
-
-[AsideHeader]
 If you have not seen what a spy or stub is before, this is 
 my understanding of when they are both used:
-[/AsideHeader]
 
 In your tests, given you have a function you want to test 
 that takes another function as an argument, you may want to
@@ -111,8 +107,6 @@ These are the basics of how you would use spies and stubs
 in your tests. We have only scratched the surface of what
 libraries like Sinon give you, but I believe this is a good
 starting point to be able to understand the concept.
-
-[/Aside]
 
 Interestingly, though almost everyone in the room had been
 using spying and stubbing in the tests they were writing, a
