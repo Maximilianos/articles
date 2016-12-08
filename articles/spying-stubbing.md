@@ -1,5 +1,5 @@
 ---
-authors: Maximilianos
+authors: [Maximilianos]
 status: published
 published: 08/12/2016
 title: Spying & Stubbing in JavaScript
