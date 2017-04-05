@@ -6,12 +6,15 @@ title: The absolute basics of Spying & Stubbing in JavaScript
 description: 
 ---
 
-If you have not seen what a spy or stub is before, this is 
-my understanding of when they are both used:
+If you've started testing your JavaScript code, you will
+have come across the need to test whether a particular
+function is being called, or perhaps you have needed to
+assert what happens when a particular function returns a
+particular value or throws an error.
 
 In your tests, given you have a function you want to test 
-that takes another function as an argument, you may want to
-check whether the function you passed in is being called
+that takes another function as an argument, you may want
+to check whether the function you passed in is being called
 when you call the parent function. So for example, given:
 
 ```javascript
