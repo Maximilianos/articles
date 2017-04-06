@@ -3,7 +3,11 @@ author: Maximilianos
 status: published
 published: 08/12/2016
 title: The absolute basics of Spying & Stubbing in JavaScript
-description: 
+description: If you've started testing your JavaScript code, you will
+             have come across the need to test whether a particular
+             function is being called, or perhaps you have needed to
+             assert what happens when a particular function returns a
+             particular value or throws an error.
 ---
 
 If you've started testing your JavaScript code, you will
